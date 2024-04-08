@@ -1,0 +1,141 @@
+body{
+  font-family:arial,sans-serif;
+  font-size:13px;
+}
+
+html,body{
+  margin:0;
+  padding:0;
+}
+
+
+.logo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+.logo img{
+  display:block;
+  margin:auto;
+  width:60%;
+  height:100%;
+}
+.search{
+  
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    width:100%;
+    height:48px;
+    font-size:14pt;
+    padding-left:20px;
+	padding-right:20px;
+    background: white;
+    border:solid;
+    border-width: thin;
+    border-color:#F9F9F9;
+    box-shadow: 1px 1px 3px #888888;
+
+
+}
+.navigation-top {
+  float:right;
+  padding-right:30px;
+}
+.navigation-top li{
+  display:inline-block;
+  float:left;
+  padding-right: 10px;
+  font-size: 10pt;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+  outline: 0;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.buttons{
+    margin: auto;
+    width: 50%;
+    padding-top:20px;
+    
+}
+
+button{
+	
+	height: 36px;
+    line-height: 27px;
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.google-apps{
+	display:block;
+	position:relative;
+	bottom:6px;
+	height:30px;
+	width:30px;
+	background-image:url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+	background-position-x:-130px;
+	background-position-y:-38px;
+	background-size:528px 68px;
+	text-indent:-9999px;
+}
+
+#footer{
+
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background-color: #F2F2F2;
+  padding-bottom: 15px;
+  border:solid;
+  border-width: thin;
+  border-color:#F9F9F9;
+  box-shadow: 1px 1px 3px #888888;
+}
+
+#footer a{
+  color:#666666;
+}
+.bottom-right{
+  float:right;
+  padding-right:30px;
+
+}
+.bottom-right li{
+  display:inline;
+  float:left;
+  padding-right: 25px;
+  font-size: 10pt;
+}
+
+.bottom-left{
+  float:left;
+  color:rgb(102, 102, 102);
+}
+
+
+.bottom-left li{
+  display:inline;
+  float:left;
+  padding-right:25px;
+  font-size: 10pt;
+}

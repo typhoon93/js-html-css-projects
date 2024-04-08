@@ -1,0 +1,42 @@
+.board{
+    margin: auto;
+    display: grid;
+    width: 526px;
+    height: 526px;
+    border: 1px solid black;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows:  auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  }
+.sketchcell{
+  
+  background:white;
+  
+}
+
+body{
+    text-align: center;
+}
+
+button{
+	background-color:khaki;
+	height: 40px;
+	width: 80px;
+	font-family: MONOSPACE;
+	font-weight: bold;
+}
+div.instruction {
+    width:500px;
+    height:200;
+    border: 4px dotted red;
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+    display:none;
+    font-size: 80%;
+}
+button.instructionsON, button.instructionsOFF {
+    height:40px;
+    width:120px;
+    background-color: skyblue;
+}
+
